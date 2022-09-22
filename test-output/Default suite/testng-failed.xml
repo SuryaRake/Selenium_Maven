@@ -7,8 +7,8 @@
         <methods>
           <include name="dataClean"/>
           <include name="dataSetUp"/>
-          <include name="Test3"/>
-          <include name="TeadDown"/>
+          <include name="TearDown"/>
+          <include name="Test2"/>
           <include name="SetUp"/>
         </methods>
       </class> <!-- testcases.SimplilearnLogin -->

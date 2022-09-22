@@ -1,33 +1,195 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="6" passed="3" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-18T11:19:50 IST" name="Default suite" finished-at="2022-09-18T11:20:07 IST" duration-ms="17855">
+  <suite started-at="2022-09-23T00:00:28 IST" name="Suite" finished-at="2022-09-23T00:01:10 IST" duration-ms="41346">
     <groups>
     </groups>
-    <test started-at="2022-09-18T11:19:50 IST" name="Default test" finished-at="2022-09-18T11:20:07 IST" duration-ms="17855">
-      <class name="testcases.SimplilearnLogin">
-        <test-method is-config="true" signature="dataSetUp()[pri:0, instance:testcases.SimplilearnLogin@48f278eb]" started-at="2022-09-18T11:19:50 IST" name="dataSetUp" finished-at="2022-09-18T11:19:50 IST" duration-ms="442" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dataSetUp -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:testcases.SimplilearnLogin@48f278eb]" started-at="2022-09-18T11:19:50 IST" name="SetUp" finished-at="2022-09-18T11:19:52 IST" duration-ms="2432" status="PASS">
+    <test started-at="2022-09-23T00:00:28 IST" name="Test" finished-at="2022-09-23T00:01:10 IST" duration-ms="41346">
+      <class name="testcases.HomeTest">
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.HomeTest@7c24b813]" started-at="2022-09-23T00:01:10 IST" name="SetUp" finished-at="2022-09-23T00:01:10 IST" duration-ms="0" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.HomeTest.Test1()]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.relevantcodes.extentreports.ExtentReports.startTest(String)" because "this.report" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentReports.startTest(String)" because "this.report" is null
+at testcases.BaseClass.SetUp(BaseClass.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Test3()[pri:0, instance:testcases.SimplilearnLogin@48f278eb]" started-at="2022-09-18T11:19:52 IST" name="Test3" finished-at="2022-09-18T11:20:05 IST" duration-ms="12515" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:testcases.HomeTest@7c24b813]" started-at="2022-09-23T00:01:10 IST" name="Test1" finished-at="2022-09-23T00:01:10 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "com.relevantcodes.extentreports.ExtentReports.startTest(String)" because "this.report" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "com.relevantcodes.extentreports.ExtentReports.startTest(String)" because "this.report" is null
+at testcases.BaseClass.SetUp(BaseClass.java:53)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:65)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:381)
+at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:319)
+at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:803)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:589)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:220)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:945)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:193)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:808)
+at org.testng.TestRunner.run(TestRunner.java:603)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:429)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:423)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:383)
+at org.testng.SuiteRunner.run(SuiteRunner.java:326)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1249)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+at org.testng.TestNG.runSuites(TestNG.java:1092)
+at org.testng.TestNG.run(TestNG.java:1060)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SimplilearnLogin@48f278eb]" started-at="2022-09-18T11:20:05 IST" name="TearDown" finished-at="2022-09-18T11:20:07 IST" duration-ms="2431" status="PASS">
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.HomeTest@7c24b813]" started-at="2022-09-23T00:01:10 IST" name="TearDown" finished-at="2022-09-23T00:01:10 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="dataClean()[pri:0, instance:testcases.SimplilearnLogin@48f278eb]" started-at="2022-09-18T11:20:07 IST" name="dataClean" finished-at="2022-09-18T11:20:07 IST" duration-ms="1" status="PASS">
+      </class> <!-- testcases.HomeTest -->
+      <class name="testcases.SimplilearnLogin">
+        <test-method is-config="true" signature="dataSetUp()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:28 IST" name="dataSetUp" finished-at="2022-09-23T00:00:29 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dataSetUp -->
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:29 IST" name="SetUp" finished-at="2022-09-23T00:00:31 IST" duration-ms="2192" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SimplilearnLogin.Test1()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Test1()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:31 IST" name="Test1" finished-at="2022-09-23T00:00:39 IST" duration-ms="7653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:39 IST" name="TearDown" finished-at="2022-09-23T00:00:41 IST" duration-ms="2423" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:41 IST" name="SetUp" finished-at="2022-09-23T00:00:43 IST" duration-ms="1755" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SimplilearnLogin.Test2(java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Test2(java.lang.String,java.lang.String)[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:43 IST" name="Test2" finished-at="2022-09-23T00:00:57 IST" duration-ms="13608" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[suryaksatheesan@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Raaku@27]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:57 IST" name="TearDown" finished-at="2022-09-23T00:00:59 IST" duration-ms="2422" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:59 IST" name="SetUp" finished-at="2022-09-23T00:01:01 IST" duration-ms="1874" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void testcases.SimplilearnLogin.Test3()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SetUp -->
+        <test-method signature="Test3()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:01:01 IST" name="Test3" finished-at="2022-09-23T00:01:10 IST" duration-ms="8686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:01:10 IST" name="TearDown" finished-at="2022-09-23T00:01:10 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+        <test-method is-config="true" signature="dataClean()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:01:10 IST" name="dataClean" finished-at="2022-09-23T00:01:10 IST" duration-ms="251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataClean -->
       </class> <!-- testcases.SimplilearnLogin -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
