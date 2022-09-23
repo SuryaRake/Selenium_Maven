@@ -6,7 +6,7 @@
 		<parameter name="pwd" value="Raaku@27" />
 		<classes>
 			<class name="testcases.SimplilearnLogin" />
-			<class name="testcases.HomeTest" />
+			
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

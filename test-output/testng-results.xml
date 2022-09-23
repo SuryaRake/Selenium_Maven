@@ -2,12 +2,12 @@
 <testng-results ignored="2" total="6" passed="3" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-23T00:00:28 IST" name="Suite" finished-at="2022-09-23T00:01:10 IST" duration-ms="41346">
+  <suite started-at="2022-09-23T16:45:39 IST" name="Suite" finished-at="2022-09-23T16:46:17 IST" duration-ms="38172">
     <groups>
     </groups>
-    <test started-at="2022-09-23T00:00:28 IST" name="Test" finished-at="2022-09-23T00:01:10 IST" duration-ms="41346">
+    <test started-at="2022-09-23T16:45:39 IST" name="Test" finished-at="2022-09-23T16:46:17 IST" duration-ms="38172">
       <class name="testcases.HomeTest">
-        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.HomeTest@7c24b813]" started-at="2022-09-23T00:01:10 IST" name="SetUp" finished-at="2022-09-23T00:01:10 IST" duration-ms="0" status="FAIL">
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.HomeTest@7c24b813]" started-at="2022-09-23T16:46:17 IST" name="SetUp" finished-at="2022-09-23T16:46:17 IST" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -60,7 +60,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Test1()[pri:0, instance:testcases.HomeTest@7c24b813]" started-at="2022-09-23T00:01:10 IST" name="Test1" finished-at="2022-09-23T00:01:10 IST" duration-ms="0" status="SKIP">
+        <test-method signature="Test1()[pri:0, instance:testcases.HomeTest@7c24b813]" started-at="2022-09-23T16:46:17 IST" name="Test1" finished-at="2022-09-23T16:46:17 IST" duration-ms="0" status="SKIP">
           <exception class="java.lang.NullPointerException">
             <message>
               <![CDATA[Cannot invoke "com.relevantcodes.extentreports.ExtentReports.startTest(String)" because "this.report" is null]]>
@@ -106,17 +106,17 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.HomeTest@7c24b813]" started-at="2022-09-23T00:01:10 IST" name="TearDown" finished-at="2022-09-23T00:01:10 IST" duration-ms="0" status="SKIP">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.HomeTest@7c24b813]" started-at="2022-09-23T16:46:17 IST" name="TearDown" finished-at="2022-09-23T16:46:17 IST" duration-ms="0" status="SKIP">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
       </class> <!-- testcases.HomeTest -->
       <class name="testcases.SimplilearnLogin">
-        <test-method is-config="true" signature="dataSetUp()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:28 IST" name="dataSetUp" finished-at="2022-09-23T00:00:29 IST" duration-ms="392" status="PASS">
+        <test-method is-config="true" signature="dataSetUp()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T16:45:39 IST" name="dataSetUp" finished-at="2022-09-23T16:45:39 IST" duration-ms="377" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataSetUp -->
-        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:29 IST" name="SetUp" finished-at="2022-09-23T00:00:31 IST" duration-ms="2192" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T16:45:39 IST" name="SetUp" finished-at="2022-09-23T16:45:41 IST" duration-ms="2088" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -127,15 +127,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Test1()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:31 IST" name="Test1" finished-at="2022-09-23T00:00:39 IST" duration-ms="7653" status="PASS">
+        <test-method signature="Test1()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T16:45:41 IST" name="Test1" finished-at="2022-09-23T16:45:48 IST" duration-ms="7264" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test1 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:39 IST" name="TearDown" finished-at="2022-09-23T00:00:41 IST" duration-ms="2423" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T16:45:48 IST" name="TearDown" finished-at="2022-09-23T16:45:51 IST" duration-ms="2419" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:41 IST" name="SetUp" finished-at="2022-09-23T00:00:43 IST" duration-ms="1755" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T16:45:51 IST" name="SetUp" finished-at="2022-09-23T16:45:53 IST" duration-ms="1811" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -146,7 +146,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Test2(java.lang.String,java.lang.String)[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:43 IST" name="Test2" finished-at="2022-09-23T00:00:57 IST" duration-ms="13608" status="PASS">
+        <test-method signature="Test2(java.lang.String,java.lang.String)[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T16:45:53 IST" name="Test2" finished-at="2022-09-23T16:46:02 IST" duration-ms="9089" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,11 +162,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test2 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:57 IST" name="TearDown" finished-at="2022-09-23T00:00:59 IST" duration-ms="2422" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T16:46:02 IST" name="TearDown" finished-at="2022-09-23T16:46:04 IST" duration-ms="2427" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:00:59 IST" name="SetUp" finished-at="2022-09-23T00:01:01 IST" duration-ms="1874" status="PASS">
+        <test-method is-config="true" signature="SetUp(java.lang.reflect.Method)[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T16:46:04 IST" name="SetUp" finished-at="2022-09-23T16:46:06 IST" duration-ms="1869" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -177,15 +177,15 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="Test3()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:01:01 IST" name="Test3" finished-at="2022-09-23T00:01:10 IST" duration-ms="8686" status="PASS">
+        <test-method signature="Test3()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T16:46:06 IST" name="Test3" finished-at="2022-09-23T16:46:14 IST" duration-ms="8241" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Test3 -->
-        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:01:10 IST" name="TearDown" finished-at="2022-09-23T00:01:10 IST" duration-ms="54" status="PASS">
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T16:46:14 IST" name="TearDown" finished-at="2022-09-23T16:46:17 IST" duration-ms="2420" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TearDown -->
-        <test-method is-config="true" signature="dataClean()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T00:01:10 IST" name="dataClean" finished-at="2022-09-23T00:01:10 IST" duration-ms="251" status="PASS">
+        <test-method is-config="true" signature="dataClean()[pri:0, instance:testcases.SimplilearnLogin@1af2d44a]" started-at="2022-09-23T16:46:17 IST" name="dataClean" finished-at="2022-09-23T16:46:17 IST" duration-ms="132" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dataClean -->
